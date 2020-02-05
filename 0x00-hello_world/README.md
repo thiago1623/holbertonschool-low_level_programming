@@ -1,0 +1,1 @@
+this is the comment for my directory 0x00-hello_world
