@@ -16,11 +16,11 @@ int main(void)
 	lastline = n % 10;
 	if (lastline > 5)
 		{
-		printf("the last digit of %i is %i and is greater than 5\n", n, lastline);
+		printf("last digit of %i is %i and is greater than 5\n", n, lastline);
 		}
 	else if (lastline == 0)
 		{
-		printf("the last digit of %i is %i and is 0\n", n, lastline);
+		printf("last digit of %i is %i and is 0\n", n, lastline);
 		}
 	else
 		{
