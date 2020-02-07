@@ -1,15 +1,17 @@
 #include <stdio.h>
 /**
-* main - prints out a random number
-*
-* Return: Always 0 (success)
-*/
-int man (void)
+ * main - prints alphabeth
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
 {
-	char alphabet = 'a';
 
-	do {
-		putchar ( alphabet);
-		alphabet++;
-	}
+	char alp;
+
+	for  (alp = 'a'; alp <= 'z'; alp++)
+		putchar (alp);
+		putchar('\n');
+		return (0);
+
 }
