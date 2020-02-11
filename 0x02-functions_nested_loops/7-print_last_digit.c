@@ -2,11 +2,10 @@
 /**
  *print_last_digit - unction that computes the absolute value of an integer.
  *@n: this variable
- *Return:  0  Always
+ *Return: the content saved in variable n
  */
 int print_last_digit(int n)
 {
-
 	if (n < 0)
 	{
 		n = n * -1;
@@ -14,7 +13,6 @@ int print_last_digit(int n)
 
 	 n = n % 10;
 
-	_putchar(n + '0');
+	_putchar('0' + n);
 	return (n);
-
 }
