@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *main - this program print the alphabet x10
+ *print_alphabet_x10 - this program print the alphabet x10
  *
  *Return: (0) Always
  */
