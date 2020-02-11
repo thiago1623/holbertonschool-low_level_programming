@@ -1,8 +1,7 @@
 #include "holberton.h"
 /**
- *
- *int _abs - unction that computes the absolute value of an integer.
- *@n: this variable 
+ *_abs - unction that computes the absolute value of an integer.
+ *@n: this variable
  *Return:  (n)  Always
  */
 int _abs(int n)
