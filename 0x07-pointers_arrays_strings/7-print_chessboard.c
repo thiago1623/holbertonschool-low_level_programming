@@ -1,12 +1,13 @@
 #include "holberton.h"
 /**
  * print_chessboard - Print a chessboard
- * @c: Matriz
+ * @a: Matriz
  * Return: Nothing.
  */
 void print_chessboard(char (*a)[8])
 {
 	int c, f, g;
+
 	g = sizeof(a);
 
 	for (c = 0; c < g; c++)
