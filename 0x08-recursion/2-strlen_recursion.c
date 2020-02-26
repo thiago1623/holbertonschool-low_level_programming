@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _puts_recursion - prints buffer in hexa
+ * _strlen_recursion - prints buffer in hexa
  * @s: the address of memory to print
  * Return: s.
  */
