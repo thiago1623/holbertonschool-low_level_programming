@@ -1,6 +1,6 @@
 #include "holberton.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * *str_concat - check the code for Holberton School students.
  * @s1: this is the first accountant.
@@ -9,14 +9,19 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int i, j;
+	int i, j, a, b;
 	char *arr;
 
-	arr = malloc(sizeof(s1) + sizeof(s2));
+	for (a = 0; s1[a] != '\0'; a++)
+		;
+	for (b = 0; s2[b] != '\0'; b++)
+		;
+
+	arr = malloc(sizeof(char) * a + sizeof(char) * b + 1);
 
 	if (arr == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
 
 	for (i = 0; *(s1 + i) != '\0'; i++)
@@ -28,5 +33,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		arr[i] = *(s2 + j);
 	}
+	arr[i] = '\0';
 	return (arr);
 }
