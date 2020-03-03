@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * *create_array - Print the minimum coins to make change
+ * *create_arra - Print the minimum coins to make change
  * @size: Size of input array
  * @c: Pointer to input array
  * Return: Always arr.
