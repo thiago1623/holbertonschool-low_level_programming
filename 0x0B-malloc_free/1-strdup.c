@@ -16,23 +16,19 @@ char *_strdup(char *str)
 		return (0);
 	}
 
-	for (i = 0; *(str + i) != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 	}
-	arr = malloc(sizeof(char) + 1);
+	arr = malloc(sizeof(char) * i);
 
 	if (arr == NULL)
 	{
+		free(arr);
 		return (NULL);
-	}
-
-	if (arr == 0)
-	{
-		return (0);
 	}
 	for (j = 0; j < i; j++)
 	{
-		*(arr + j) = *(str + j);
+		arr[j] = str[j];
 	}
 	return (arr);
 }
