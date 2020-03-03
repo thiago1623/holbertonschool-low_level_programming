@@ -9,7 +9,7 @@
 int **alloc_grid(int width, int height)
 {
 	int col, row;
-	int **grid;
+	int **grid = NULL;
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
@@ -26,6 +26,7 @@ int **alloc_grid(int width, int height)
 		grid[col] = malloc(sizeof(int) * height);
 		if (grid[col] == NULL)
 		{
+			free(grid[col]);
 			return (NULL);
 		}
 	}
