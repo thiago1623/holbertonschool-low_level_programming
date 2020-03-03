@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 #include <stdlib.h>
 /**
  * **alloc_grid - Print the minimum coins to make change
@@ -18,6 +17,7 @@ int **alloc_grid(int width, int height)
 	grid = malloc(sizeof(int *) * width);
 	if (grid == NULL)
 	{
+		free(grid);
 		return (NULL);
 	}
 
