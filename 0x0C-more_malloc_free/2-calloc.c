@@ -1,7 +1,4 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
-#include "holberton.h"
 /**
  * *_calloc - program that prints its name.
  * @nmemb: array of character pointers
