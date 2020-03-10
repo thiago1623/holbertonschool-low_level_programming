@@ -1,4 +1,4 @@
-asdnalsd#include <stdlib.h>
+#include <stdlib.h>
 #include "dog.h"
 /**
  * free_dog - program that prints its name.
