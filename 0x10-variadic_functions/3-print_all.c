@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 /**
- * p_Char - program that prints its name.
+ * p_char - program that prints its name.
  * @c: array of character pointers
  * Return: arg.
  */
@@ -47,7 +47,7 @@ void p_string(va_list s)
 
 /**
  * print_all - program that prints its name.
- * @fotmat: array of character pointers
+ * @format: array of character pointers
  * Return: arg.
  */
 void print_all(const char * const format, ...)
@@ -64,7 +64,7 @@ void print_all(const char * const format, ...)
 		{'\0', NULL}
 	};
 
-	separator ="";
+	separator = "";
 	va_start(a, format);
 	i = 0;
 	while (format && format[i])
