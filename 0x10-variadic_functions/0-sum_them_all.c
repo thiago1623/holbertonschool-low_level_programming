@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdarg.h>
 /**
  * sum_them_all - program that prints its name.
  * @n: array of character pointers
