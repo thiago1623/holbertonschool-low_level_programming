@@ -2,8 +2,8 @@
 #include "variadic_functions.h"
 /**
  * print_numbers - program that prints its name.
- * @i: array of character pointers
- * @arg: array of character pointers
+ * @n: array of character pointers
+ * @separator: array of character pointers
  * Return: arg.
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
