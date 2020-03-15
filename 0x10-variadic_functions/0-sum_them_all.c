@@ -14,12 +14,8 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(arg, n);
 
-	i = sum = 0;
-	while (i < n)
-	{
+	for (i = sum = 0; i < n; i++)
 		sum += va_arg(arg, int);
-		i++;
-	}
 	va_end(arg);
 	return (sum);
 }
