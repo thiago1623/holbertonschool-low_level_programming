@@ -4,9 +4,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdarg.h>
-
 /**
- * struc chfmt - struct
+ * struct chfmt - struct
  *@f: the variable.
  *@c: another the variable
  *return: dest
