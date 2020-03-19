@@ -1,6 +1,4 @@
 #include "lists.h"
-#include <stdlib.h>
-#include <stddef.h>
 /**
  * free_list - frees a linked list
  * @head: the beginning of the list
