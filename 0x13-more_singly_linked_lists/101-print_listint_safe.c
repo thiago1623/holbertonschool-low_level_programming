@@ -19,7 +19,7 @@ size_t print_listint_safe(const listint_t *head)
 		current = current->next;
 		n_node++;
 		printf("[%p] %d\n", (void *)aux, aux->n);
-		if (aux < current)
+		if (aux <= current)
 		{
 			printf("-> [%p] %d\n", (void *)current, current->n);
 			break;
