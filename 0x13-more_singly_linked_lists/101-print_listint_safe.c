@@ -10,8 +10,10 @@ size_t print_listint_safe(const listint_t *head)
 	size_t n_node;/*save the  number of nodes in the list*/
 
 	if (current == NULL)
+	{
+		return (0);
 		exit(98);
-
+	}
 	n_node = 0;
 	while (current != NULL)
 	{
