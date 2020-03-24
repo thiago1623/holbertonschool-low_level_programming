@@ -6,7 +6,7 @@
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	const listint_t *current = head, *aux = NULL;
+	const listint_t *current = head, *aux;
 	size_t n_node;/*save the  number of nodes in the list*/
 
 	if (current == NULL)
