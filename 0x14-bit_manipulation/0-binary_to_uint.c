@@ -22,6 +22,8 @@ unsigned int binary_to_uint(const char *b)
 	int i;
 	unsigned int result, expo;
 
+	if (!b)
+		return (0);
 	i = _strlen(b) - 1;
 	for (result = 0, expo = 1; i >= 0; i--, expo *= 2)
 	{
