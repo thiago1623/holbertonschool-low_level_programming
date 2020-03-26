@@ -16,10 +16,8 @@ void print_binary(unsigned long int n)
 
 	for (temp = n, i = 0; (temp >>= 1) > 0; i++)
 		;
-
-	while (i >= 0)
+	for (; i >= 0; i--)
 	{
-		i--;
 		((n >> i) & 1) ? printf("1") : printf("0");
 	}
 }
